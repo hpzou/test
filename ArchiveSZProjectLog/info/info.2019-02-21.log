@@ -1,0 +1,196 @@
+2019-02-21 09:40:10,277 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 9980 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-21 09:40:10,350 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-21 09:40:21,970 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 12.838 seconds (JVM running for 15.786)
+2019-02-21 09:43:26,518 INFO [http-nio-8085-exec-5] c.a.p.controller.LoginController [LoginController.java : 90] 用户admin成功登陆
+2019-02-21 09:51:47,882 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 09:51:47,909 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 27 毫秒
+2019-02-21 09:51:47,991 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 09:52:46,647 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 09:52:46,652 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 5 毫秒
+2019-02-21 09:52:46,728 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 09:56:56,137 INFO [http-nio-8085-exec-4] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 09:56:56,141 INFO [http-nio-8085-exec-4] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 4 毫秒
+2019-02-21 09:56:56,268 INFO [http-nio-8085-exec-4] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 09:58:26,662 INFO [http-nio-8085-exec-2] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 09:58:26,665 INFO [http-nio-8085-exec-2] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 2 毫秒
+2019-02-21 09:58:26,677 INFO [http-nio-8085-exec-2] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 09:58:35,663 INFO [http-nio-8085-exec-8] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 09:58:35,666 INFO [http-nio-8085-exec-8] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 3 毫秒
+2019-02-21 09:58:35,674 INFO [http-nio-8085-exec-8] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 09:59:54,497 INFO [http-nio-8085-exec-5] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 09:59:54,499 INFO [http-nio-8085-exec-5] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 2 毫秒
+2019-02-21 09:59:54,580 INFO [http-nio-8085-exec-5] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 10:10:46,221 INFO [http-nio-8085-exec-2] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 10:10:46,224 INFO [http-nio-8085-exec-2] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 3 毫秒
+2019-02-21 10:10:46,247 INFO [http-nio-8085-exec-2] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 10:12:35,585 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 2096 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-21 10:12:35,591 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-21 10:12:45,191 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 10.475 seconds (JVM running for 12.33)
+2019-02-21 10:12:50,125 INFO [http-nio-8085-exec-2] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 10:12:50,688 INFO [http-nio-8085-exec-2] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 563 毫秒
+2019-02-21 10:12:52,505 INFO [http-nio-8085-exec-2] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 10:13:23,255 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 7160 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-21 10:13:23,262 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-21 10:13:31,688 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 9.204 seconds (JVM running for 11.263)
+2019-02-21 10:13:34,917 INFO [http-nio-8085-exec-2] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 10:13:35,483 INFO [http-nio-8085-exec-2] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 566 毫秒
+2019-02-21 10:13:37,052 INFO [http-nio-8085-exec-2] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 10:16:08,876 INFO [http-nio-8085-exec-5] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 10:16:08,880 INFO [http-nio-8085-exec-5] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 4 毫秒
+2019-02-21 10:16:08,923 INFO [http-nio-8085-exec-5] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 10:16:51,824 INFO [http-nio-8085-exec-6] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 10:16:51,827 INFO [http-nio-8085-exec-6] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 3 毫秒
+2019-02-21 10:16:51,846 INFO [http-nio-8085-exec-6] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 10:17:48,949 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 10:17:48,951 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 2 毫秒
+2019-02-21 10:17:48,964 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 10:17:57,322 INFO [http-nio-8085-exec-8] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 10:17:57,326 INFO [http-nio-8085-exec-8] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 4 毫秒
+2019-02-21 10:17:57,338 INFO [http-nio-8085-exec-8] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 10:31:15,361 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 14508 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-21 10:31:15,365 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-21 10:31:22,911 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 8.213 seconds (JVM running for 11.24)
+2019-02-21 10:34:20,467 INFO [http-nio-8085-exec-2] c.a.p.controller.LoginController [LoginController.java : 90] 用户admin成功登陆
+2019-02-21 10:36:21,390 INFO [http-nio-8085-exec-10] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 10:36:21,423 INFO [http-nio-8085-exec-10] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 33 毫秒
+2019-02-21 10:36:21,481 INFO [http-nio-8085-exec-10] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 10:40:57,819 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 10:40:57,822 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 3 毫秒
+2019-02-21 10:40:57,891 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 10:43:53,522 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 10:43:53,524 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 2 毫秒
+2019-02-21 10:43:53,637 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 10:45:27,813 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 10:45:27,815 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 2 毫秒
+2019-02-21 10:45:27,889 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 10:53:59,145 INFO [http-nio-8085-exec-3] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 10:53:59,149 INFO [http-nio-8085-exec-3] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 4 毫秒
+2019-02-21 10:53:59,156 INFO [http-nio-8085-exec-3] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 10:54:14,631 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 10:54:14,634 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 3 毫秒
+2019-02-21 10:54:14,637 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 11:04:56,047 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 11:04:56,050 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 3 毫秒
+2019-02-21 11:04:56,060 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 11:12:12,471 INFO [http-nio-8085-exec-3] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 11:12:12,474 INFO [http-nio-8085-exec-3] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 3 毫秒
+2019-02-21 11:12:12,496 INFO [http-nio-8085-exec-3] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 11:27:20,037 INFO [http-nio-8085-exec-8] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 11:27:20,040 INFO [http-nio-8085-exec-8] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 3 毫秒
+2019-02-21 11:27:20,062 INFO [http-nio-8085-exec-8] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 11:27:31,828 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 11:27:31,830 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 2 毫秒
+2019-02-21 11:27:31,836 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 11:27:35,882 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 11:27:35,885 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 3 毫秒
+2019-02-21 11:27:35,893 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 11:27:47,503 INFO [http-nio-8085-exec-5] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 11:27:47,505 INFO [http-nio-8085-exec-5] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 2 毫秒
+2019-02-21 11:27:47,619 INFO [http-nio-8085-exec-5] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 11:31:03,782 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 11:31:03,784 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 2 毫秒
+2019-02-21 11:31:03,838 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 11:33:02,185 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 11:33:02,187 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 2 毫秒
+2019-02-21 11:33:02,283 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 11:34:32,380 INFO [http-nio-8085-exec-2] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 11:34:32,384 INFO [http-nio-8085-exec-2] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 4 毫秒
+2019-02-21 11:34:32,413 INFO [http-nio-8085-exec-2] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 11:34:45,548 INFO [http-nio-8085-exec-3] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 11:34:45,551 INFO [http-nio-8085-exec-3] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 3 毫秒
+2019-02-21 11:34:45,565 INFO [http-nio-8085-exec-3] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 11:35:29,742 INFO [http-nio-8085-exec-6] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 11:35:29,745 INFO [http-nio-8085-exec-6] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 3 毫秒
+2019-02-21 11:35:29,824 INFO [http-nio-8085-exec-6] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 11:36:04,003 INFO [http-nio-8085-exec-10] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 11:36:04,006 INFO [http-nio-8085-exec-10] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 3 毫秒
+2019-02-21 11:36:04,016 INFO [http-nio-8085-exec-10] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 11:36:22,197 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 11:36:22,199 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 2 毫秒
+2019-02-21 11:36:22,215 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 11:37:11,765 INFO [http-nio-8085-exec-5] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 11:37:11,767 INFO [http-nio-8085-exec-5] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 2 毫秒
+2019-02-21 11:37:11,809 INFO [http-nio-8085-exec-5] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 11:41:40,237 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 11:41:40,240 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 3 毫秒
+2019-02-21 11:41:40,330 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 11:42:36,824 INFO [http-nio-8085-exec-6] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 11:42:36,826 INFO [http-nio-8085-exec-6] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 2 毫秒
+2019-02-21 11:42:36,834 INFO [http-nio-8085-exec-6] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 11:43:06,392 INFO [http-nio-8085-exec-10] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 11:43:06,394 INFO [http-nio-8085-exec-10] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 2 毫秒
+2019-02-21 11:43:06,403 INFO [http-nio-8085-exec-10] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 11:43:23,554 INFO [http-nio-8085-exec-8] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 11:43:23,557 INFO [http-nio-8085-exec-8] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 3 毫秒
+2019-02-21 11:43:23,568 INFO [http-nio-8085-exec-8] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 11:44:37,153 INFO [http-nio-8085-exec-5] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 11:44:37,155 INFO [http-nio-8085-exec-5] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 2 毫秒
+2019-02-21 11:44:37,176 INFO [http-nio-8085-exec-5] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 15:16:49,205 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 14508 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-21 15:16:49,206 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-21 15:16:53,176 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 4.089 seconds (JVM running for 17141.506)
+2019-02-21 15:35:11,843 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 14508 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-21 15:35:11,843 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-21 15:35:16,287 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 4.514 seconds (JVM running for 18244.617)
+2019-02-21 16:38:15,460 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 14544 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-21 16:38:15,463 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-21 16:38:23,952 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 9.246 seconds (JVM running for 11.207)
+2019-02-21 16:39:28,942 INFO [http-nio-8085-exec-8] c.a.p.controller.LoginController [LoginController.java : 92] 用户admin成功登陆
+2019-02-21 16:48:19,762 INFO [http-nio-8085-exec-10] c.a.p.controller.LoginController [LoginController.java : 92] 用户admin成功登陆
+2019-02-21 16:50:45,545 INFO [http-nio-8085-exec-10] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 16:50:45,578 INFO [http-nio-8085-exec-10] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 33 毫秒
+2019-02-21 16:50:45,585 INFO [http-nio-8085-exec-10] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 16:52:21,279 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 16:52:21,282 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 3 毫秒
+2019-02-21 16:52:21,289 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 16:53:36,653 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 16:53:36,655 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 2 毫秒
+2019-02-21 16:53:36,661 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 17:04:56,609 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 3212 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-21 17:04:56,612 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-21 17:05:05,983 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 10.3 seconds (JVM running for 12.49)
+2019-02-21 17:07:04,109 INFO [http-nio-8085-exec-3] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 17:07:04,898 INFO [http-nio-8085-exec-3] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 789 毫秒
+2019-02-21 17:07:06,074 INFO [http-nio-8085-exec-3] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 17:07:45,076 INFO [http-nio-8085-exec-7] c.a.p.controller.LoginController [LoginController.java : 92] 用户admin成功登陆
+2019-02-21 17:08:14,704 INFO [http-nio-8085-exec-8] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 17:08:14,708 INFO [http-nio-8085-exec-8] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 4 毫秒
+2019-02-21 17:08:14,713 INFO [http-nio-8085-exec-8] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 17:13:16,175 INFO [http-nio-8085-exec-8] c.a.p.controller.LoginController [LoginController.java : 92] 用户admin成功登陆
+2019-02-21 17:13:47,831 INFO [http-nio-8085-exec-5] c.a.p.controller.LoginController [LoginController.java : 92] 用户admin成功登陆
+2019-02-21 17:16:31,218 INFO [http-nio-8085-exec-4] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 17:16:31,221 INFO [http-nio-8085-exec-4] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 3 毫秒
+2019-02-21 17:16:31,450 INFO [http-nio-8085-exec-4] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 17:17:18,033 INFO [http-nio-8085-exec-10] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 17:17:18,035 INFO [http-nio-8085-exec-10] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 2 毫秒
+2019-02-21 17:17:18,040 INFO [http-nio-8085-exec-10] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 17:20:39,026 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 17:20:39,029 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 3 毫秒
+2019-02-21 17:20:39,035 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 17:21:09,574 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 17:21:09,576 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 2 毫秒
+2019-02-21 17:21:09,582 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 17:21:36,389 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 16336 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-21 17:21:36,394 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-21 17:21:43,932 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 8.31 seconds (JVM running for 9.933)
+2019-02-21 17:22:32,593 INFO [http-nio-8085-exec-10] c.a.p.controller.LoginController [LoginController.java : 92] 用户admin成功登陆
+2019-02-21 17:23:43,735 INFO [http-nio-8085-exec-6] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 17:23:43,772 INFO [http-nio-8085-exec-6] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 37 毫秒
+2019-02-21 17:23:43,779 INFO [http-nio-8085-exec-6] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 17:26:01,660 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 8952 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-21 17:26:01,665 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-21 17:26:09,452 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 8.443 seconds (JVM running for 10.103)
+2019-02-21 17:26:47,825 INFO [http-nio-8085-exec-8] c.a.p.controller.LoginController [LoginController.java : 92] 用户admin成功登陆
+2019-02-21 17:28:01,877 INFO [http-nio-8085-exec-6] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 17:28:01,919 INFO [http-nio-8085-exec-6] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 42 毫秒
+2019-02-21 17:28:01,928 INFO [http-nio-8085-exec-6] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 17:33:57,956 INFO [http-nio-8085-exec-4] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 17:33:57,959 INFO [http-nio-8085-exec-4] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 3 毫秒
+2019-02-21 17:33:57,968 INFO [http-nio-8085-exec-4] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-21 17:34:53,196 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 10116 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-21 17:34:53,201 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-21 17:35:00,758 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 8.203 seconds (JVM running for 9.807)
+2019-02-21 17:35:48,909 INFO [http-nio-8085-exec-3] c.a.p.controller.LoginController [LoginController.java : 92] 用户admin成功登陆
+2019-02-21 17:36:33,065 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-21 17:36:33,098 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 33 毫秒
+2019-02-21 17:36:33,104 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin

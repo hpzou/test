@@ -1,0 +1,23 @@
+2019-02-20 15:50:43,552 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on TH7UKVI44N6JHXZ with PID 18540 (D:\Software\ArchiveSZBackend\target\classes started by Administrator in D:\Software\ArchiveSZBackend)
+2019-02-20 15:50:43,613 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-20 15:52:20,944 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on TH7UKVI44N6JHXZ with PID 14036 (D:\Software\ArchiveSZBackend\target\classes started by Administrator in D:\Software\ArchiveSZBackend)
+2019-02-20 15:52:20,951 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-20 16:00:20,393 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on TH7UKVI44N6JHXZ with PID 20056 (D:\Software\ArchiveSZBackend\target\classes started by Administrator in D:\Software\ArchiveSZBackend)
+2019-02-20 16:00:20,399 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-20 16:35:32,496 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on TH7UKVI44N6JHXZ with PID 19464 (D:\Software\ArchiveSZBackend\target\classes started by Administrator in D:\Software\ArchiveSZBackend)
+2019-02-20 16:35:32,522 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-20 16:41:26,838 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on TH7UKVI44N6JHXZ with PID 23440 (D:\Software\ArchiveSZBackend\target\classes started by Administrator in D:\Software\ArchiveSZBackend)
+2019-02-20 16:41:26,843 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-20 19:24:59,063 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 2968 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-20 19:24:59,067 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-20 19:25:07,208 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 9.031 seconds (JVM running for 11.573)
+2019-02-20 19:27:53,950 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 13476 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-20 19:27:53,955 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-20 19:28:01,071 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 7.733 seconds (JVM running for 9.418)
+2019-02-20 19:29:11,534 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 3248 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-20 19:29:11,537 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-20 19:29:18,868 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 7.953 seconds (JVM running for 9.648)
+2019-02-20 19:35:35,418 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 2776 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-20 19:35:35,459 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-20 19:35:42,582 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 7.886 seconds (JVM running for 9.46)
+2019-02-20 19:35:49,753 INFO [http-nio-8085-exec-1] c.a.p.controller.LoginController [LoginController.java : 90] 用户admin成功登陆

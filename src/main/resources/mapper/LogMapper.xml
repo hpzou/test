@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.anshare.project.dao.LogMapper">
+  <resultMap id="BaseResultMap" type="com.anshare.project.model.Log">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="CHAR" property="id" />
+    <result column="UserID" jdbcType="VARCHAR" property="userid" />
+    <result column="OptTime" jdbcType="VARCHAR" property="opttime" />
+    <result column="IP" jdbcType="LONGVARCHAR" property="ip" />
+    <result column="Region" jdbcType="LONGVARCHAR" property="region" />
+    <result column="Account" jdbcType="LONGVARCHAR" property="account" />
+    <result column="OptType" jdbcType="LONGVARCHAR" property="opttype" />
+    <result column="Content" jdbcType="LONGVARCHAR" property="content" />
+    <result column="ResultContent" jdbcType="LONGVARCHAR" property="resultcontent" />
+    <result column="IsDeleted" jdbcType="BIT" property="isdeleted" />
+    <result column="Timestamp" jdbcType="TIMESTAMP" property="timestamp" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.anshare.project.dao.AdCodelistMapper">
+  <resultMap id="BaseResultMap" type="com.anshare.project.model.AdCodelist">
+    <id column="ID" jdbcType="VARCHAR" property="id" />
+    <result column="CodeValue" jdbcType="VARCHAR" property="codevalue" />
+    <result column="CodeName" jdbcType="VARCHAR" property="codename" />
+    <result column="CodeType" jdbcType="VARCHAR" property="codetype" />
+    <result column="CodeTypeDict" jdbcType="VARCHAR" property="codetypedict" />
+    <result column="CodeOrder" jdbcType="DECIMAL" property="codeorder" />
+    <result column="Remark" jdbcType="VARCHAR" property="remark" />
+    <result column="IsDeleted" jdbcType="BIT" property="isdeleted" />
+    <result column="Timestamp" jdbcType="TIMESTAMP" property="timestamp" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,20 @@
+2019-02-20 15:50:43,553 DEBUG [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-02-20 15:52:20,948 DEBUG [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-02-20 16:00:20,397 DEBUG [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-02-20 16:35:32,520 DEBUG [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-02-20 16:41:26,841 DEBUG [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-02-20 19:24:59,065 DEBUG [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-02-20 19:27:53,953 DEBUG [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-02-20 19:29:11,536 DEBUG [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-02-20 19:35:35,458 DEBUG [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-02-20 19:35:47,889 DEBUG [http-nio-8085-exec-1] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp FROM users WHERE ( UserName = ? and Password = ? ) 
+2019-02-20 19:35:47,906 DEBUG [http-nio-8085-exec-1] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==> Parameters: admin(String), AnshareAdmin(String)
+2019-02-20 19:35:47,925 DEBUG [http-nio-8085-exec-1] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-20 19:35:47,930 DEBUG [http-nio-8085-exec-1] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,RoleAuthName,HomePage,Rank,IsDeleted,Timestamp,RoleName FROM role WHERE ID = ? 
+2019-02-20 19:35:47,932 DEBUG [http-nio-8085-exec-1] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==> Parameters: 00000000-1000-0000-0000-000000000000(String)
+2019-02-20 19:35:47,937 DEBUG [http-nio-8085-exec-1] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-20 19:35:49,797 DEBUG [http-nio-8085-exec-1] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO log ( ID,UserID,OptTime,IsDeleted,Timestamp,Region,Account,OptType,Content ) VALUES( ?,?,?,?,?,?,?,?,? ) 
+2019-02-20 19:35:49,801 DEBUG [http-nio-8085-exec-1] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] ==> Parameters: 625141ac-0fd0-471a-8354-12f8283fefd3(String), admin(String), 2019-02-20 19:35:49(String), false(Boolean), 2019-02-20 19:35:49.795(Timestamp), 登陆系统(String), com.anshare.project.controller.LoginController.login(String), 0(String), admin,AnshareAdmin,SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@16cf735d]],com.alibaba.druid.support.http.WebStatFilter$StatHttpServletResponseWrapper@758d30af(String)
+2019-02-20 19:35:49,886 DEBUG [http-nio-8085-exec-1] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-20 19:35:49,889 DEBUG [http-nio-8085-exec-1] c.a.p.d.L.insertSelective!selectKey [BaseJdbcLogger.java : 159] ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-02-20 19:35:49,910 DEBUG [http-nio-8085-exec-1] c.a.p.d.L.insertSelective!selectKey [BaseJdbcLogger.java : 159] <==      Total: 1

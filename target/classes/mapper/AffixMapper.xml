@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.anshare.project.dao.AffixMapper">
+  <resultMap id="BaseResultMap" type="com.anshare.project.model.Affix">
+    <id column="ID" jdbcType="CHAR" property="id" />
+    <result column="ResourceID" jdbcType="VARCHAR" property="resourceid" />
+    <result column="Type" jdbcType="VARCHAR" property="type" />
+    <result column="IsDeleted" jdbcType="BIT" property="isdeleted" />
+    <result column="Timestamp" jdbcType="TIMESTAMP" property="timestamp" />
+    <result column="FileName" jdbcType="LONGVARCHAR" property="filename" />
+    <result column="SaveName" jdbcType="LONGVARCHAR" property="savename" />
+    <result column="FileExtension" jdbcType="LONGVARCHAR" property="fileextension" />
+  </resultMap>
+
+  <sql id="selectAllCdRecorderColumns">
+    select
+          a.id,
+          a.resourceid,
+          a.type,
+          a.filename,
+          a. savename,
+          a. fileextension,
+          a.isdeleted,
+          a. timestamp
+      from
+          affix a
+  </sql>
+
+  <select id="list" resultMap="BaseResultMap" parameterType="com.anshare.project.model.SqlModel">
+    <include refid="selectAllCdRecorderColumns" />
+    where
+      ${searchSql}
+      a.isdeleted = '0'
+  </select>
+
+  <select id="resumeList" resultMap="BaseResultMap" parameterType="java.lang.String">
+      <include refid="selectAllCdRecorderColumns" />
+      where
+        substr(a.resourceid,1,36) = #{id}
+      and a.isdeleted = '0'
+  </select>
+</mapper>

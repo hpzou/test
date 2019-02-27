@@ -1,0 +1,80 @@
+2019-02-22 09:47:47,431 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 2640 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-22 09:47:47,503 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-22 09:47:58,899 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 12.872 seconds (JVM running for 15.439)
+2019-02-22 09:48:43,740 INFO [http-nio-8085-exec-6] c.a.p.controller.LoginController [LoginController.java : 93] 用户admin成功登陆
+2019-02-22 09:48:43,740 INFO [http-nio-8085-exec-2] c.a.p.controller.LoginController [LoginController.java : 93] 用户admin成功登陆
+2019-02-22 09:50:24,843 INFO [http-nio-8085-exec-2] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-22 09:50:24,925 INFO [http-nio-8085-exec-2] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 82 毫秒
+2019-02-22 09:57:37,407 INFO [http-nio-8085-exec-2] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-22 10:11:48,324 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 12292 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-22 10:11:48,327 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-22 10:11:58,072 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 10.723 seconds (JVM running for 12.893)
+2019-02-22 10:12:45,633 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 3940 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-22 10:12:45,637 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-22 10:12:54,334 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 9.364 seconds (JVM running for 11.089)
+2019-02-22 10:13:25,652 INFO [http-nio-8085-exec-2] c.a.p.controller.LoginController [LoginController.java : 93] 用户admin成功登陆
+2019-02-22 10:13:50,767 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-22 10:13:50,805 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 38 毫秒
+2019-02-22 10:13:51,196 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-22 10:19:43,239 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 3500 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-22 10:19:43,245 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-22 10:19:51,060 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 8.499 seconds (JVM running for 10.142)
+2019-02-22 10:20:22,922 INFO [http-nio-8085-exec-9] c.a.p.controller.LoginController [LoginController.java : 93] 用户admin成功登陆
+2019-02-22 10:20:38,175 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-22 10:20:38,209 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 34 毫秒
+2019-02-22 10:20:38,555 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-22 10:30:41,793 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 13320 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-22 10:30:41,839 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-22 10:30:49,508 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 8.378 seconds (JVM running for 10.095)
+2019-02-22 10:31:16,239 INFO [http-nio-8085-exec-9] c.a.p.controller.LoginController [LoginController.java : 93] 用户admin成功登陆
+2019-02-22 10:31:29,596 INFO [http-nio-8085-exec-2] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-22 10:31:29,628 INFO [http-nio-8085-exec-2] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 32 毫秒
+2019-02-22 10:31:29,879 INFO [http-nio-8085-exec-2] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-22 10:36:25,115 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 5340 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-22 10:36:25,119 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-22 10:36:32,743 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 8.276 seconds (JVM running for 9.94)
+2019-02-22 10:37:24,092 INFO [http-nio-8085-exec-4] c.a.p.controller.LoginController [LoginController.java : 93] 用户admin成功登陆
+2019-02-22 10:37:38,597 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-22 10:37:38,629 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 32 毫秒
+2019-02-22 10:37:38,915 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-22 10:41:09,664 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 10700 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-22 10:41:09,669 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-22 10:41:17,760 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 8.902 seconds (JVM running for 10.763)
+2019-02-22 10:41:53,631 INFO [http-nio-8085-exec-5] c.a.p.controller.LoginController [LoginController.java : 93] 用户admin成功登陆
+2019-02-22 10:42:07,311 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-22 10:42:07,349 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 38 毫秒
+2019-02-22 10:42:07,778 INFO [http-nio-8085-exec-9] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-22 11:20:47,311 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 15164 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-22 11:20:47,314 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-22 11:20:55,878 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 9.279 seconds (JVM running for 11.084)
+2019-02-22 11:21:27,992 INFO [http-nio-8085-exec-4] c.a.p.controller.LoginController [LoginController.java : 93] 用户admin成功登陆
+2019-02-22 11:21:50,820 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-22 11:21:50,855 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 35 毫秒
+2019-02-22 11:21:50,870 INFO [http-nio-8085-exec-7] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-22 12:06:41,236 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 13656 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-22 12:06:41,241 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-22 12:06:48,999 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 8.398 seconds (JVM running for 10.054)
+2019-02-22 12:07:23,059 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 644 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-22 12:07:23,100 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-22 12:07:30,799 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 8.372 seconds (JVM running for 10.037)
+2019-02-22 12:08:31,913 INFO [http-nio-8085-exec-6] c.a.p.controller.LoginController [LoginController.java : 93] 用户admin成功登陆
+2019-02-22 12:08:51,222 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-22 12:08:51,257 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 35 毫秒
+2019-02-22 12:08:51,273 INFO [http-nio-8085-exec-1] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-22 12:37:31,198 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 3232 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-22 12:37:31,201 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-22 12:37:38,683 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 8.109 seconds (JVM running for 9.746)
+2019-02-22 12:38:14,046 INFO [http-nio-8085-exec-4] c.a.p.controller.LoginController [LoginController.java : 93] 用户admin成功登陆
+2019-02-22 12:38:30,701 INFO [http-nio-8085-exec-8] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-22 12:38:30,746 INFO [http-nio-8085-exec-8] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 45 毫秒
+2019-02-22 12:38:30,761 INFO [http-nio-8085-exec-8] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-22 12:39:35,327 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 9944 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-22 12:39:35,331 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-22 12:39:43,136 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 8.515 seconds (JVM running for 10.088)
+2019-02-22 12:39:49,017 INFO [http-nio-8085-exec-1] c.a.p.controller.LoginController [LoginController.java : 93] 用户admin成功登陆
+2019-02-22 12:40:31,439 INFO [http-nio-8085-exec-3] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 71] GET AUTH
+2019-02-22 12:40:31,478 INFO [http-nio-8085-exec-3] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 84] 执行时间: 39 毫秒
+2019-02-22 12:40:31,499 INFO [http-nio-8085-exec-3] c.a.p.c.f.JWTAuthenticationFilter [JWTAuthenticationFilter.java : 57] admin
+2019-02-22 16:19:12,759 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 50] Starting Application on Zhp-PC with PID 9944 (D:\GZLJ\ArchiveSZBackend\target\classes started by Zhp in D:\GZLJ\ArchiveSZBackend)
+2019-02-22 16:19:12,769 INFO [restartedMain] com.anshare.project.Application [SpringApplication.java : 663] The following profiles are active: test
+2019-02-22 16:19:17,936 INFO [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 59] Started Application in 5.352 seconds (JVM running for 13184.888)

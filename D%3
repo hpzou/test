@@ -1,0 +1,90 @@
+[2017-11-03 16:57:13] file:http.cpp line: 535)<<<<[Http::CurlHelper] code=200 cost=1076ms
+[2017-11-03 16:57:13] file: line: 79)<<<<[LinkSocket::GetServerAddressFromLBS] code=0
+[2017-11-03 16:57:13] file: line: 94)<<<<[LinkSocket::GetServerAddressFromLBS] addr=
+{
+   "link" : [
+      {
+         "ip" : "59.111.0.227",
+         "port" : 8080
+      },
+      {
+         "ip" : "106.2.95.37",
+         "port" : 8764
+      },
+      {
+         "ip" : "59.111.137.172",
+         "port" : 8764
+      }
+   ],
+   "stat" : [
+      {
+         "ip" : "59.111.8.112",
+         "port" : 8090
+      },
+      {
+         "ip" : "59.111.8.113",
+         "port" : 8090
+      },
+      {
+         "ip" : "59.111.8.136",
+         "port" : 8090
+      },
+      {
+         "ip" : "59.111.8.137",
+         "port" : 8090
+      }
+   ]
+}
+
+[2017-11-03 17:15:10] file:http.cpp line: 535)<<<<[Http::CurlHelper] code=200 cost=1045ms
+[2017-11-03 17:15:10] file: line: 79)<<<<[LinkSocket::GetServerAddressFromLBS] code=0
+[2017-11-03 17:15:10] file: line: 94)<<<<[LinkSocket::GetServerAddressFromLBS] addr=
+{
+   "link" : [
+      {
+         "ip" : "59.111.0.227",
+         "port" : 8080
+      },
+      {
+         "ip" : "106.2.95.37",
+         "port" : 8764
+      },
+      {
+         "ip" : "59.111.137.172",
+         "port" : 8764
+      }
+   ],
+   "stat" : [
+      {
+         "ip" : "59.111.8.112",
+         "port" : 8090
+      },
+      {
+         "ip" : "59.111.8.113",
+         "port" : 8090
+      },
+      {
+         "ip" : "59.111.8.136",
+         "port" : 8090
+      },
+      {
+         "ip" : "59.111.8.137",
+         "port" : 8090
+      }
+   ]
+}
+
+[2017-11-03 17:15:16] file: line: 643)<<<<[AccService::RemoveTapAdapter] result=0,error_code=-2
+[2017-11-03 17:15:16] file:http.cpp line: 535)<<<<[Http::CurlHelper] code=200 cost=187ms
+[2017-11-03 17:15:16] file: line: 68)<<<<[StatLog::SendStatInfo] action=uninstall, code=0, len=235
+[2017-11-03 17:15:16] file: line: 70)<<<<[StatLog::SendStatInfo] {
+   "action" : "uninstall",
+   "feedback" : "请将您的反馈告诉UU，帮助UU继续进步",
+   "mac" : "00-FF-CB-67-26-2F",
+   "os_bit" : 64,
+   "os_ver" : 601,
+   "reason" : "2;",
+   "uid" : "17302518786",
+   "version" : 2126
+}
+

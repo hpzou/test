@@ -1,0 +1,286 @@
+2019-02-21 09:40:10,317 DEBUG [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-02-21 09:42:26,917 DEBUG [http-nio-8085-exec-7] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp FROM users WHERE ( UserName = ? and Password = ? ) 
+2019-02-21 09:42:26,943 DEBUG [http-nio-8085-exec-7] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==> Parameters: admin(String), AnshareAdmin(String)
+2019-02-21 09:42:27,329 DEBUG [http-nio-8085-exec-7] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 09:42:27,335 DEBUG [http-nio-8085-exec-7] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,RoleAuthName,HomePage,Rank,IsDeleted,Timestamp,RoleName FROM role WHERE ID = ? 
+2019-02-21 09:42:27,336 DEBUG [http-nio-8085-exec-7] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==> Parameters: 00000000-1000-0000-0000-000000000000(String)
+2019-02-21 09:42:27,401 DEBUG [http-nio-8085-exec-7] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 09:43:26,413 DEBUG [http-nio-8085-exec-5] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp FROM users WHERE ( UserName = ? and Password = ? ) 
+2019-02-21 09:43:26,414 DEBUG [http-nio-8085-exec-5] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==> Parameters: admin(String), AnshareAdmin(String)
+2019-02-21 09:43:26,434 DEBUG [http-nio-8085-exec-5] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 09:43:26,436 DEBUG [http-nio-8085-exec-5] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,RoleAuthName,HomePage,Rank,IsDeleted,Timestamp,RoleName FROM role WHERE ID = ? 
+2019-02-21 09:43:26,437 DEBUG [http-nio-8085-exec-5] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==> Parameters: 00000000-1000-0000-0000-000000000000(String)
+2019-02-21 09:43:26,439 DEBUG [http-nio-8085-exec-5] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 09:43:26,522 DEBUG [http-nio-8085-exec-5] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO log ( ID,UserID,OptTime,IsDeleted,Timestamp,Region,Account,OptType,Content ) VALUES( ?,?,?,?,?,?,?,?,? ) 
+2019-02-21 09:43:26,525 DEBUG [http-nio-8085-exec-5] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] ==> Parameters: 1a42f299-105c-496e-bbd8-dcce0755480d(String), admin(String), 2019-02-21 09:43:26(String), false(Boolean), 2019-02-21 09:43:26.52(Timestamp), 登陆系统(String), com.anshare.project.controller.LoginController.login(String), 0(String), admin,AnshareAdmin,SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@193fb3fc]],com.alibaba.druid.support.http.WebStatFilter$StatHttpServletResponseWrapper@77c68912(String)
+2019-02-21 09:43:26,709 DEBUG [http-nio-8085-exec-5] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-21 09:43:26,714 DEBUG [http-nio-8085-exec-5] c.a.p.d.L.insertSelective!selectKey [BaseJdbcLogger.java : 159] ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-02-21 09:43:26,757 DEBUG [http-nio-8085-exec-5] c.a.p.d.L.insertSelective!selectKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 09:51:47,930 DEBUG [http-nio-8085-exec-7] c.a.p.d.UsersMapper.insertSelective [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO users ( ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp ) VALUES( ?,?,?,?,?,?,?,?,? ) 
+2019-02-21 09:51:47,932 DEBUG [http-nio-8085-exec-7] c.a.p.d.UsersMapper.insertSelective [BaseJdbcLogger.java : 159] ==> Parameters: 92c357f9-e639-4948-9eff-fd6beb9d032b(String), 1(String), 1(String), 1(String), 1(String), 1(String), 0(Integer), false(Boolean), 2019-02-21 09:51:47.927(Timestamp)
+2019-02-21 09:51:47,987 DEBUG [http-nio-8085-exec-7] c.a.p.d.UsersMapper.insertSelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-21 09:51:47,988 DEBUG [http-nio-8085-exec-7] c.a.p.d.U.insertSelective!selectKey [BaseJdbcLogger.java : 159] ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-02-21 09:51:47,989 DEBUG [http-nio-8085-exec-7] c.a.p.d.U.insertSelective!selectKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 09:52:46,660 DEBUG [http-nio-8085-exec-1] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==>  Preparing: UPDATE users SET DeptID = ?,RoleID = ?,UserName = ?,Password = ?,RealName = ?,Rank = ?,IsDeleted = ?,Timestamp = ? WHERE ID = ? 
+2019-02-21 09:52:46,662 DEBUG [http-nio-8085-exec-1] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==> Parameters: 2(String), 2(String), 2(String), 2(String), 2(String), 0(Integer), true(Boolean), 2019-02-21 09:52:46.659(Timestamp), 1(String)
+2019-02-21 09:52:46,722 DEBUG [http-nio-8085-exec-1] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] <==    Updates: 0
+2019-02-21 09:52:46,723 DEBUG [http-nio-8085-exec-1] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==>  Preparing: UPDATE users SET DeptID = ?,RoleID = ?,UserName = ?,Password = ?,RealName = ?,Rank = ?,IsDeleted = ?,Timestamp = ? WHERE ID = ? 
+2019-02-21 09:52:46,725 DEBUG [http-nio-8085-exec-1] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==> Parameters: 2(String), 2(String), 2(String), 2(String), 2(String), 0(Integer), true(Boolean), 2019-02-21 09:52:46.659(Timestamp), 1(String)
+2019-02-21 09:52:46,726 DEBUG [http-nio-8085-exec-1] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] <==    Updates: 0
+2019-02-21 09:56:56,146 DEBUG [http-nio-8085-exec-4] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==>  Preparing: UPDATE users SET DeptID = ?,RoleID = ?,UserName = ?,Password = ?,RealName = ?,Rank = ?,IsDeleted = ?,Timestamp = ? WHERE ID = ? 
+2019-02-21 09:56:56,148 DEBUG [http-nio-8085-exec-4] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==> Parameters: 2(String), 2(String), 2(String), 2(String), 2(String), 0(Integer), true(Boolean), 2019-02-21 09:56:56.145(Timestamp), 92c357f9-e639-4948-9eff-fd6beb9d032b(String)
+2019-02-21 09:56:56,250 DEBUG [http-nio-8085-exec-4] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-21 09:56:56,251 DEBUG [http-nio-8085-exec-4] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==>  Preparing: UPDATE users SET DeptID = ?,RoleID = ?,UserName = ?,Password = ?,RealName = ?,Rank = ?,IsDeleted = ?,Timestamp = ? WHERE ID = ? 
+2019-02-21 09:56:56,252 DEBUG [http-nio-8085-exec-4] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==> Parameters: 2(String), 2(String), 2(String), 2(String), 2(String), 0(Integer), true(Boolean), 2019-02-21 09:56:56.145(Timestamp), 92c357f9-e639-4948-9eff-fd6beb9d032b(String)
+2019-02-21 09:56:56,266 DEBUG [http-nio-8085-exec-4] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-21 09:58:26,669 DEBUG [http-nio-8085-exec-2] c.a.p.d.U.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp FROM users WHERE ID = ? 
+2019-02-21 09:58:26,670 DEBUG [http-nio-8085-exec-2] c.a.p.d.U.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==> Parameters: 1(String)
+2019-02-21 09:58:26,671 DEBUG [http-nio-8085-exec-2] c.a.p.d.U.selectByPrimaryKey [BaseJdbcLogger.java : 159] <==      Total: 0
+2019-02-21 09:58:35,669 DEBUG [http-nio-8085-exec-8] c.a.p.d.U.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp FROM users WHERE ID = ? 
+2019-02-21 09:58:35,670 DEBUG [http-nio-8085-exec-8] c.a.p.d.U.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==> Parameters: 1(String)
+2019-02-21 09:58:35,671 DEBUG [http-nio-8085-exec-8] c.a.p.d.U.selectByPrimaryKey [BaseJdbcLogger.java : 159] <==      Total: 0
+2019-02-21 09:59:54,503 DEBUG [http-nio-8085-exec-5] c.a.p.d.U.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp FROM users WHERE ID = ? 
+2019-02-21 09:59:54,504 DEBUG [http-nio-8085-exec-5] c.a.p.d.U.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==> Parameters: 92c357f9-e639-4948-9eff-fd6beb9d032b(String)
+2019-02-21 09:59:54,505 DEBUG [http-nio-8085-exec-5] c.a.p.d.U.selectByPrimaryKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 09:59:54,507 DEBUG [http-nio-8085-exec-5] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==>  Preparing: UPDATE users SET DeptID = ?,RoleID = ?,UserName = ?,Password = ?,RealName = ?,Rank = ?,IsDeleted = ?,Timestamp = ? WHERE ID = ? 
+2019-02-21 09:59:54,508 DEBUG [http-nio-8085-exec-5] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==> Parameters: 2(String), 2(String), 2(String), 2(String), 2(String), 0(Integer), true(Boolean), 2019-02-21 09:59:54.506(Timestamp), 92c357f9-e639-4948-9eff-fd6beb9d032b(String)
+2019-02-21 09:59:54,578 DEBUG [http-nio-8085-exec-5] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-21 10:12:35,589 DEBUG [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-02-21 10:12:52,307 DEBUG [http-nio-8085-exec-2] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT count(0) FROM users a LEFT JOIN role b ON a.roleid = b.id LEFT JOIN dept c ON a.deptid = c.id WHERE a.rolename = '管理员' AND a.isdeleted = 0 
+2019-02-21 10:12:52,345 DEBUG [http-nio-8085-exec-2] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==> Parameters: 
+2019-02-21 10:13:23,259 DEBUG [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-02-21 10:13:36,944 DEBUG [http-nio-8085-exec-2] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT count(0) FROM users a LEFT JOIN role b ON a.roleid = b.id WHERE a.rolename = '管理员' AND a.isdeleted = 0 
+2019-02-21 10:13:36,963 DEBUG [http-nio-8085-exec-2] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==> Parameters: 
+2019-02-21 10:16:08,888 DEBUG [http-nio-8085-exec-5] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT count(0) FROM users a LEFT JOIN role b ON a.roleid = b.id WHERE a.deptid = '2' AND a.isdeleted = 0 
+2019-02-21 10:16:08,889 DEBUG [http-nio-8085-exec-5] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==> Parameters: 
+2019-02-21 10:16:08,912 DEBUG [http-nio-8085-exec-5] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 10:16:51,831 DEBUG [http-nio-8085-exec-6] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT count(0) FROM users a LEFT JOIN role b ON a.roleid = b.id WHERE a.deptid = '2' AND a.isdeleted = 0 
+2019-02-21 10:16:51,832 DEBUG [http-nio-8085-exec-6] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==> Parameters: 
+2019-02-21 10:16:51,833 DEBUG [http-nio-8085-exec-6] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 10:16:51,835 DEBUG [http-nio-8085-exec-6] c.a.project.dao.UsersMapper.listPlus [BaseJdbcLogger.java : 159] ==>  Preparing: select a.id, a.deptid, a.roleid, a.username, a. password, a.realname, a.rank, a.isdeleted, a. timestamp, b.rolename rolename from users a left join role b on a.roleid = b.id WHERE a.deptid = '2' AND a.isdeleted =0 order by a.timestamp desc limit ?,? 
+2019-02-21 10:16:51,837 DEBUG [http-nio-8085-exec-6] c.a.project.dao.UsersMapper.listPlus [BaseJdbcLogger.java : 159] ==> Parameters: 0(Integer), 10(Integer)
+2019-02-21 10:16:51,840 DEBUG [http-nio-8085-exec-6] c.a.project.dao.UsersMapper.listPlus [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 10:17:48,956 DEBUG [http-nio-8085-exec-7] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT count(0) FROM users a LEFT JOIN role b ON a.roleid = b.id WHERE a.deptid = '2' AND a.roleid = '2' AND a.isdeleted = 0 
+2019-02-21 10:17:48,957 DEBUG [http-nio-8085-exec-7] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==> Parameters: 
+2019-02-21 10:17:48,959 DEBUG [http-nio-8085-exec-7] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 10:17:48,960 DEBUG [http-nio-8085-exec-7] c.a.project.dao.UsersMapper.listPlus [BaseJdbcLogger.java : 159] ==>  Preparing: select a.id, a.deptid, a.roleid, a.username, a. password, a.realname, a.rank, a.isdeleted, a. timestamp, b.rolename rolename from users a left join role b on a.roleid = b.id WHERE a.deptid = '2' AND a.roleid = '2' AND a.isdeleted =0 order by a.timestamp desc limit ?,? 
+2019-02-21 10:17:48,960 DEBUG [http-nio-8085-exec-7] c.a.project.dao.UsersMapper.listPlus [BaseJdbcLogger.java : 159] ==> Parameters: 0(Integer), 10(Integer)
+2019-02-21 10:17:48,962 DEBUG [http-nio-8085-exec-7] c.a.project.dao.UsersMapper.listPlus [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 10:17:57,332 DEBUG [http-nio-8085-exec-8] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT count(0) FROM users a LEFT JOIN role b ON a.roleid = b.id WHERE a.deptid = '2' AND a.roleid = '21' AND a.isdeleted = 0 
+2019-02-21 10:17:57,334 DEBUG [http-nio-8085-exec-8] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==> Parameters: 
+2019-02-21 10:17:57,335 DEBUG [http-nio-8085-exec-8] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 10:28:32,204 DEBUG [http-nio-8085-exec-9] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp FROM users WHERE ( UserName = ? and Password = ? ) 
+2019-02-21 10:28:32,207 DEBUG [http-nio-8085-exec-9] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==> Parameters: admin(String), AnshareAdmin(String)
+2019-02-21 10:28:32,209 DEBUG [http-nio-8085-exec-9] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 10:28:32,213 DEBUG [http-nio-8085-exec-9] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,RoleAuthName,HomePage,Rank,IsDeleted,Timestamp,RoleName FROM role WHERE ID = ? 
+2019-02-21 10:28:32,214 DEBUG [http-nio-8085-exec-9] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==> Parameters: 00000000-1000-0000-0000-000000000000(String)
+2019-02-21 10:28:32,216 DEBUG [http-nio-8085-exec-9] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 10:28:40,643 DEBUG [http-nio-8085-exec-1] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp FROM users WHERE ( UserName = ? and Password = ? ) 
+2019-02-21 10:28:40,647 DEBUG [http-nio-8085-exec-1] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==> Parameters: admin(String), AnshareAdmin(String)
+2019-02-21 10:28:40,650 DEBUG [http-nio-8085-exec-1] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 10:28:40,651 DEBUG [http-nio-8085-exec-1] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,RoleAuthName,HomePage,Rank,IsDeleted,Timestamp,RoleName FROM role WHERE ID = ? 
+2019-02-21 10:28:40,652 DEBUG [http-nio-8085-exec-1] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==> Parameters: 00000000-1000-0000-0000-000000000000(String)
+2019-02-21 10:28:40,653 DEBUG [http-nio-8085-exec-1] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 10:28:44,118 DEBUG [http-nio-8085-exec-5] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp FROM users WHERE ( UserName = ? and Password = ? ) 
+2019-02-21 10:28:44,119 DEBUG [http-nio-8085-exec-5] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==> Parameters: admin(String), AnshareAdmin(String)
+2019-02-21 10:28:44,121 DEBUG [http-nio-8085-exec-5] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 10:28:44,123 DEBUG [http-nio-8085-exec-5] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,RoleAuthName,HomePage,Rank,IsDeleted,Timestamp,RoleName FROM role WHERE ID = ? 
+2019-02-21 10:28:44,124 DEBUG [http-nio-8085-exec-5] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==> Parameters: 00000000-1000-0000-0000-000000000000(String)
+2019-02-21 10:28:44,125 DEBUG [http-nio-8085-exec-5] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 10:31:15,363 DEBUG [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-02-21 10:34:18,975 DEBUG [http-nio-8085-exec-2] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp FROM users WHERE ( UserName = ? and Password = ? ) 
+2019-02-21 10:34:18,994 DEBUG [http-nio-8085-exec-2] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==> Parameters: admin(String), AnshareAdmin(String)
+2019-02-21 10:34:19,011 DEBUG [http-nio-8085-exec-2] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 10:34:19,017 DEBUG [http-nio-8085-exec-2] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,RoleAuthName,HomePage,Rank,IsDeleted,Timestamp,RoleName FROM role WHERE ID = ? 
+2019-02-21 10:34:19,018 DEBUG [http-nio-8085-exec-2] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==> Parameters: 00000000-1000-0000-0000-000000000000(String)
+2019-02-21 10:34:19,023 DEBUG [http-nio-8085-exec-2] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 10:34:20,516 DEBUG [http-nio-8085-exec-2] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO log ( ID,UserID,OptTime,IsDeleted,Timestamp,Region,Account,OptType,Content ) VALUES( ?,?,?,?,?,?,?,?,? ) 
+2019-02-21 10:34:20,518 DEBUG [http-nio-8085-exec-2] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] ==> Parameters: c83ef5aa-5618-4ea6-a083-9906aefd9a80(String), admin(String), 2019-02-21 10:34:20(String), false(Boolean), 2019-02-21 10:34:20.513(Timestamp), 登陆系统(String), com.anshare.project.controller.LoginController.login(String), 0(String), admin,AnshareAdmin,SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@5b583901]],com.alibaba.druid.support.http.WebStatFilter$StatHttpServletResponseWrapper@4b96cbf7(String)
+2019-02-21 10:34:20,552 DEBUG [http-nio-8085-exec-2] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-21 10:34:20,556 DEBUG [http-nio-8085-exec-2] c.a.p.d.L.insertSelective!selectKey [BaseJdbcLogger.java : 159] ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-02-21 10:34:20,557 DEBUG [http-nio-8085-exec-2] c.a.p.d.L.insertSelective!selectKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 10:36:21,445 DEBUG [http-nio-8085-exec-10] c.a.p.dao.FormMapper.insertSelective [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO form ( ID,TableName,FormJson,Optime,IsDeleted,Timestamp,Position,Remark ) VALUES( ?,?,?,?,?,?,?,? ) 
+2019-02-21 10:36:21,447 DEBUG [http-nio-8085-exec-10] c.a.p.dao.FormMapper.insertSelective [BaseJdbcLogger.java : 159] ==> Parameters: 62ad051d-bf25-4bd2-b2d9-f72ecfe48ca1(String), 3(String), 3(String), 2019-02-21 10:36:21(String), false(Boolean), 2019-02-21 10:36:21.443(Timestamp), 3(String), 3(String)
+2019-02-21 10:36:21,476 DEBUG [http-nio-8085-exec-10] c.a.p.dao.FormMapper.insertSelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-21 10:36:21,477 DEBUG [http-nio-8085-exec-10] c.a.p.d.F.insertSelective!selectKey [BaseJdbcLogger.java : 159] ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-02-21 10:36:21,478 DEBUG [http-nio-8085-exec-10] c.a.p.d.F.insertSelective!selectKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 10:40:57,826 DEBUG [http-nio-8085-exec-1] c.a.p.dao.FormMapper.insertSelective [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO form ( ID,TableName,FormJson,Optime,IsDeleted,Timestamp,Position,Remark ) VALUES( ?,?,?,?,?,?,?,? ) 
+2019-02-21 10:40:57,828 DEBUG [http-nio-8085-exec-1] c.a.p.dao.FormMapper.insertSelective [BaseJdbcLogger.java : 159] ==> Parameters: af6d0a86-f999-4f28-927c-654d7045e85a(String), 3(String), 3(String), 2019-02-21 10:40:57(String), false(Boolean), 2019-02-21 10:40:57.826(Timestamp), 3(String), 3(String)
+2019-02-21 10:40:57,886 DEBUG [http-nio-8085-exec-1] c.a.p.dao.FormMapper.insertSelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-21 10:40:57,887 DEBUG [http-nio-8085-exec-1] c.a.p.d.F.insertSelective!selectKey [BaseJdbcLogger.java : 159] ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-02-21 10:40:57,889 DEBUG [http-nio-8085-exec-1] c.a.p.d.F.insertSelective!selectKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 10:43:53,540 DEBUG [http-nio-8085-exec-7] c.a.p.d.UsersMapper.insertSelective [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO users ( ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp ) VALUES( ?,?,?,?,?,?,?,?,? ) 
+2019-02-21 10:43:53,542 DEBUG [http-nio-8085-exec-7] c.a.p.d.UsersMapper.insertSelective [BaseJdbcLogger.java : 159] ==> Parameters: 3(String), 3(String), 3(String), 3(String), 3(String), 3(String), 3(Integer), false(Boolean), 2019-02-21 10:43:53.537(Timestamp)
+2019-02-21 10:43:53,632 DEBUG [http-nio-8085-exec-7] c.a.p.d.UsersMapper.insertSelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-21 10:43:53,633 DEBUG [http-nio-8085-exec-7] c.a.p.d.U.insertSelective!selectKey [BaseJdbcLogger.java : 159] ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-02-21 10:43:53,635 DEBUG [http-nio-8085-exec-7] c.a.p.d.U.insertSelective!selectKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 10:45:27,821 DEBUG [http-nio-8085-exec-9] c.a.p.d.U.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp FROM users WHERE ID = ? 
+2019-02-21 10:45:27,822 DEBUG [http-nio-8085-exec-9] c.a.p.d.U.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==> Parameters: 3(String)
+2019-02-21 10:45:27,826 DEBUG [http-nio-8085-exec-9] c.a.p.d.U.selectByPrimaryKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 10:45:27,828 DEBUG [http-nio-8085-exec-9] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==>  Preparing: UPDATE users SET DeptID = ?,RoleID = ?,UserName = ?,Password = ?,RealName = ?,Rank = ?,IsDeleted = ?,Timestamp = ? WHERE ID = ? 
+2019-02-21 10:45:27,830 DEBUG [http-nio-8085-exec-9] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==> Parameters: 3(String), 3(String), 3(String), 3(String), 3(String), 3(Integer), true(Boolean), 2019-02-21 10:45:27.827(Timestamp), 3(String)
+2019-02-21 10:45:27,888 DEBUG [http-nio-8085-exec-9] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-21 11:04:56,053 DEBUG [http-nio-8085-exec-1] c.a.p.d.U.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp FROM users WHERE ID = ? 
+2019-02-21 11:04:56,055 DEBUG [http-nio-8085-exec-1] c.a.p.d.U.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==> Parameters: 2(String)
+2019-02-21 11:04:56,057 DEBUG [http-nio-8085-exec-1] c.a.p.d.U.selectByPrimaryKey [BaseJdbcLogger.java : 159] <==      Total: 0
+2019-02-21 11:12:12,482 DEBUG [http-nio-8085-exec-3] c.a.p.d.U.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp FROM users WHERE ID = ? 
+2019-02-21 11:12:12,483 DEBUG [http-nio-8085-exec-3] c.a.p.d.U.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==> Parameters: 3(String)
+2019-02-21 11:12:12,494 DEBUG [http-nio-8085-exec-3] c.a.p.d.U.selectByPrimaryKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 11:27:47,562 DEBUG [http-nio-8085-exec-5] c.a.project.dao.FormMapper.getTables [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT table_name FROM information_schema.tables WHERE table_schema = 'szmonitor' 
+2019-02-21 11:27:47,564 DEBUG [http-nio-8085-exec-5] c.a.project.dao.FormMapper.getTables [BaseJdbcLogger.java : 159] ==> Parameters: 
+2019-02-21 11:27:47,567 DEBUG [http-nio-8085-exec-5] c.a.project.dao.FormMapper.getTables [BaseJdbcLogger.java : 159] <==      Total: 0
+2019-02-21 11:31:03,799 DEBUG [http-nio-8085-exec-7] c.a.p.d.UsersMapper.insertSelective [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO users ( ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp ) VALUES( ?,?,?,?,?,?,?,?,? ) 
+2019-02-21 11:31:03,800 DEBUG [http-nio-8085-exec-7] c.a.p.d.UsersMapper.insertSelective [BaseJdbcLogger.java : 159] ==> Parameters: 1(String), 1(String), 1(String), 1(String), 1(String), 1(String), 0(Integer), false(Boolean), 2019-02-21 11:31:03.795(Timestamp)
+2019-02-21 11:31:03,833 DEBUG [http-nio-8085-exec-7] c.a.p.d.UsersMapper.insertSelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-21 11:31:03,834 DEBUG [http-nio-8085-exec-7] c.a.p.d.U.insertSelective!selectKey [BaseJdbcLogger.java : 159] ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-02-21 11:31:03,836 DEBUG [http-nio-8085-exec-7] c.a.p.d.U.insertSelective!selectKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 11:33:02,194 DEBUG [http-nio-8085-exec-1] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==>  Preparing: UPDATE users SET DeptID = ?,RoleID = ?,UserName = ?,Password = ?,RealName = ?,Rank = ?,IsDeleted = ?,Timestamp = ? WHERE ID = ? 
+2019-02-21 11:33:02,196 DEBUG [http-nio-8085-exec-1] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==> Parameters: 4(String), 5(String), 5(String), 4(String), 5(String), 0(Integer), true(Boolean), 2019-02-21 11:33:02.192(Timestamp), 1(String)
+2019-02-21 11:33:02,257 DEBUG [http-nio-8085-exec-1] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-21 11:33:02,258 DEBUG [http-nio-8085-exec-1] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==>  Preparing: UPDATE users SET DeptID = ?,RoleID = ?,UserName = ?,Password = ?,RealName = ?,Rank = ?,IsDeleted = ?,Timestamp = ? WHERE ID = ? 
+2019-02-21 11:33:02,259 DEBUG [http-nio-8085-exec-1] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==> Parameters: 4(String), 5(String), 5(String), 4(String), 5(String), 0(Integer), true(Boolean), 2019-02-21 11:33:02.192(Timestamp), 1(String)
+2019-02-21 11:33:02,281 DEBUG [http-nio-8085-exec-1] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-21 11:34:32,396 DEBUG [http-nio-8085-exec-2] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==>  Preparing: UPDATE users SET Timestamp = ? WHERE ID = ? 
+2019-02-21 11:34:32,399 DEBUG [http-nio-8085-exec-2] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==> Parameters: 2019-02-21 11:34:32.395(Timestamp), null
+2019-02-21 11:34:32,401 DEBUG [http-nio-8085-exec-2] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] <==    Updates: 0
+2019-02-21 11:34:32,402 DEBUG [http-nio-8085-exec-2] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==>  Preparing: UPDATE users SET Timestamp = ? WHERE ID = ? 
+2019-02-21 11:34:32,406 DEBUG [http-nio-8085-exec-2] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==> Parameters: 2019-02-21 11:34:32.395(Timestamp), null
+2019-02-21 11:34:32,411 DEBUG [http-nio-8085-exec-2] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] <==    Updates: 0
+2019-02-21 11:34:45,556 DEBUG [http-nio-8085-exec-3] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==>  Preparing: UPDATE users SET Timestamp = ? WHERE ID = ? 
+2019-02-21 11:34:45,558 DEBUG [http-nio-8085-exec-3] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==> Parameters: 2019-02-21 11:34:45.555(Timestamp), null
+2019-02-21 11:34:45,559 DEBUG [http-nio-8085-exec-3] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] <==    Updates: 0
+2019-02-21 11:34:45,561 DEBUG [http-nio-8085-exec-3] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==>  Preparing: UPDATE users SET Timestamp = ? WHERE ID = ? 
+2019-02-21 11:34:45,562 DEBUG [http-nio-8085-exec-3] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==> Parameters: 2019-02-21 11:34:45.555(Timestamp), null
+2019-02-21 11:34:45,564 DEBUG [http-nio-8085-exec-3] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] <==    Updates: 0
+2019-02-21 11:35:29,812 DEBUG [http-nio-8085-exec-6] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT count(0) FROM users a LEFT JOIN role b ON a.roleid = b.id WHERE a.realname = '5' AND a.isdeleted = 0 
+2019-02-21 11:35:29,812 DEBUG [http-nio-8085-exec-6] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==> Parameters: 
+2019-02-21 11:35:29,815 DEBUG [http-nio-8085-exec-6] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 11:36:04,011 DEBUG [http-nio-8085-exec-10] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT count(0) FROM users a LEFT JOIN role b ON a.roleid = b.id WHERE a.realname = '5' AND a.isdeleted = 0 
+2019-02-21 11:36:04,012 DEBUG [http-nio-8085-exec-10] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==> Parameters: 
+2019-02-21 11:36:04,014 DEBUG [http-nio-8085-exec-10] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 11:36:22,205 DEBUG [http-nio-8085-exec-9] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT count(0) FROM users a LEFT JOIN role b ON a.roleid = b.id WHERE a.realname = '3' AND a.isdeleted = 0 
+2019-02-21 11:36:22,206 DEBUG [http-nio-8085-exec-9] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==> Parameters: 
+2019-02-21 11:36:22,207 DEBUG [http-nio-8085-exec-9] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 11:36:22,209 DEBUG [http-nio-8085-exec-9] c.a.project.dao.UsersMapper.listPlus [BaseJdbcLogger.java : 159] ==>  Preparing: select a.id, a.deptid, a.roleid, a.username, a. password, a.realname, a.rank, a.isdeleted, a. timestamp, b.rolename rolename from users a left join role b on a.roleid = b.id WHERE a.realname = '3' AND a.isdeleted =0 order by a.timestamp desc limit ?,? 
+2019-02-21 11:36:22,210 DEBUG [http-nio-8085-exec-9] c.a.project.dao.UsersMapper.listPlus [BaseJdbcLogger.java : 159] ==> Parameters: 0(Integer), 10(Integer)
+2019-02-21 11:36:22,213 DEBUG [http-nio-8085-exec-9] c.a.project.dao.UsersMapper.listPlus [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 11:37:11,770 DEBUG [http-nio-8085-exec-5] c.a.p.d.U.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp FROM users WHERE ID = ? 
+2019-02-21 11:37:11,771 DEBUG [http-nio-8085-exec-5] c.a.p.d.U.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==> Parameters: 3(String)
+2019-02-21 11:37:11,773 DEBUG [http-nio-8085-exec-5] c.a.p.d.U.selectByPrimaryKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 11:37:11,775 DEBUG [http-nio-8085-exec-5] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==>  Preparing: UPDATE users SET DeptID = ?,RoleID = ?,UserName = ?,Password = ?,RealName = ?,Rank = ?,IsDeleted = ?,Timestamp = ? WHERE ID = ? 
+2019-02-21 11:37:11,776 DEBUG [http-nio-8085-exec-5] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] ==> Parameters: 3(String), 3(String), 3(String), 3(String), 3(String), 3(Integer), true(Boolean), 2019-02-21 11:37:11.774(Timestamp), 3(String)
+2019-02-21 11:37:11,807 DEBUG [http-nio-8085-exec-5] c.a.p.d.U.updateByPrimaryKeySelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-21 11:41:40,250 DEBUG [http-nio-8085-exec-7] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT count(0) FROM users a LEFT JOIN role b ON a.roleid = b.id WHERE a.rolename = '管理员' AND a.isdeleted = 0 
+2019-02-21 11:41:40,251 DEBUG [http-nio-8085-exec-7] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==> Parameters: 
+2019-02-21 11:42:36,831 DEBUG [http-nio-8085-exec-6] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT count(0) FROM users a LEFT JOIN role b ON a.roleid = b.id WHERE a.realname = '3' AND a.isdeleted = 0 
+2019-02-21 11:42:36,831 DEBUG [http-nio-8085-exec-6] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==> Parameters: 
+2019-02-21 11:42:36,833 DEBUG [http-nio-8085-exec-6] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 11:43:06,399 DEBUG [http-nio-8085-exec-10] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT count(0) FROM users a LEFT JOIN role b ON a.roleid = b.id WHERE a.realname = '3' AND a.isdeleted = 0 
+2019-02-21 11:43:06,400 DEBUG [http-nio-8085-exec-10] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==> Parameters: 
+2019-02-21 11:43:06,401 DEBUG [http-nio-8085-exec-10] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 11:43:23,562 DEBUG [http-nio-8085-exec-8] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT count(0) FROM users a LEFT JOIN role b ON a.roleid = b.id WHERE a.realname = '3' AND a.isdeleted = 0 
+2019-02-21 11:43:23,564 DEBUG [http-nio-8085-exec-8] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==> Parameters: 
+2019-02-21 11:43:23,565 DEBUG [http-nio-8085-exec-8] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 11:44:37,161 DEBUG [http-nio-8085-exec-5] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT count(0) FROM users a LEFT JOIN role b ON a.roleid = b.id WHERE a.realname = '2' AND a.isdeleted = 0 
+2019-02-21 11:44:37,162 DEBUG [http-nio-8085-exec-5] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==> Parameters: 
+2019-02-21 11:44:37,164 DEBUG [http-nio-8085-exec-5] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 11:44:37,166 DEBUG [http-nio-8085-exec-5] c.a.project.dao.UsersMapper.listPlus [BaseJdbcLogger.java : 159] ==>  Preparing: select a.id, a.deptid, a.roleid, a.username, a. password, a.realname, a.rank, a.isdeleted, a. timestamp, b.rolename rolename from users a left join role b on a.roleid = b.id WHERE a.realname = '2' AND a.isdeleted =0 order by a.realname desc, a.timestamp desc limit ?,? 
+2019-02-21 11:44:37,167 DEBUG [http-nio-8085-exec-5] c.a.project.dao.UsersMapper.listPlus [BaseJdbcLogger.java : 159] ==> Parameters: 0(Integer), 10(Integer)
+2019-02-21 11:44:37,172 DEBUG [http-nio-8085-exec-5] c.a.project.dao.UsersMapper.listPlus [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 15:16:49,205 DEBUG [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-02-21 15:35:11,843 DEBUG [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-02-21 16:38:15,461 DEBUG [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-02-21 16:39:27,194 DEBUG [http-nio-8085-exec-8] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp FROM users WHERE ( UserName = ? and Password = ? ) 
+2019-02-21 16:39:27,213 DEBUG [http-nio-8085-exec-8] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==> Parameters: admin(String), AnshareAdmin(String)
+2019-02-21 16:39:27,232 DEBUG [http-nio-8085-exec-8] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 16:39:27,237 DEBUG [http-nio-8085-exec-8] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,RoleAuthName,HomePage,Rank,IsDeleted,Timestamp,RoleName FROM role WHERE ID = ? 
+2019-02-21 16:39:27,238 DEBUG [http-nio-8085-exec-8] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==> Parameters: 00000000-1000-0000-0000-000000000000(String)
+2019-02-21 16:39:27,245 DEBUG [http-nio-8085-exec-8] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 16:39:29,084 DEBUG [http-nio-8085-exec-8] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO log ( ID,UserID,OptTime,IsDeleted,Timestamp,Region,Account,OptType,Content ) VALUES( ?,?,?,?,?,?,?,?,? ) 
+2019-02-21 16:39:29,088 DEBUG [http-nio-8085-exec-8] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] ==> Parameters: 26c7943a-ebdd-4774-a4ea-b7bde32f48d2(String), admin(String), 2019-02-21 16:39:28(String), false(Boolean), 2019-02-21 16:39:29.081(Timestamp), 登陆系统(String), com.anshare.project.controller.LoginController.login(String), 0(String), admin,AnshareAdmin,SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@7580f80e]],com.alibaba.druid.support.http.WebStatFilter$StatHttpServletResponseWrapper@7008aa79(String)
+2019-02-21 16:39:29,176 DEBUG [http-nio-8085-exec-8] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-21 16:39:29,180 DEBUG [http-nio-8085-exec-8] c.a.p.d.L.insertSelective!selectKey [BaseJdbcLogger.java : 159] ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-02-21 16:39:29,182 DEBUG [http-nio-8085-exec-8] c.a.p.d.L.insertSelective!selectKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 16:48:19,749 DEBUG [http-nio-8085-exec-10] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp FROM users WHERE ( UserName = ? and Password = ? ) 
+2019-02-21 16:48:19,750 DEBUG [http-nio-8085-exec-10] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==> Parameters: admin(String), AnshareAdmin(String)
+2019-02-21 16:48:19,753 DEBUG [http-nio-8085-exec-10] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 16:48:19,755 DEBUG [http-nio-8085-exec-10] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,RoleAuthName,HomePage,Rank,IsDeleted,Timestamp,RoleName FROM role WHERE ID = ? 
+2019-02-21 16:48:19,756 DEBUG [http-nio-8085-exec-10] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==> Parameters: 00000000-1000-0000-0000-000000000000(String)
+2019-02-21 16:48:19,758 DEBUG [http-nio-8085-exec-10] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 16:48:19,764 DEBUG [http-nio-8085-exec-10] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO log ( ID,UserID,OptTime,IsDeleted,Timestamp,Region,Account,OptType,Content ) VALUES( ?,?,?,?,?,?,?,?,? ) 
+2019-02-21 16:48:19,766 DEBUG [http-nio-8085-exec-10] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] ==> Parameters: 091f4fa5-2856-4a48-b33e-f3bb7cdf0d1d(String), admin(String), 2019-02-21 16:48:19(String), false(Boolean), 2019-02-21 16:48:19.764(Timestamp), 登陆系统(String), com.anshare.project.controller.LoginController.login(String), 0(String), admin,AnshareAdmin,SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@3726d365]],com.alibaba.druid.support.http.WebStatFilter$StatHttpServletResponseWrapper@2985eda(String)
+2019-02-21 16:48:19,821 DEBUG [http-nio-8085-exec-10] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-21 16:48:19,822 DEBUG [http-nio-8085-exec-10] c.a.p.d.L.insertSelective!selectKey [BaseJdbcLogger.java : 159] ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-02-21 16:48:19,823 DEBUG [http-nio-8085-exec-10] c.a.p.d.L.insertSelective!selectKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 17:04:56,611 DEBUG [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-02-21 17:07:45,010 DEBUG [http-nio-8085-exec-7] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp FROM users WHERE ( UserName = ? and Password = ? ) 
+2019-02-21 17:07:45,029 DEBUG [http-nio-8085-exec-7] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==> Parameters: admin(String), AnshareAdmin(String)
+2019-02-21 17:07:45,048 DEBUG [http-nio-8085-exec-7] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 17:07:45,052 DEBUG [http-nio-8085-exec-7] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,RoleAuthName,HomePage,Rank,IsDeleted,Timestamp,RoleName FROM role WHERE ID = ? 
+2019-02-21 17:07:45,054 DEBUG [http-nio-8085-exec-7] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==> Parameters: 00000000-1000-0000-0000-000000000000(String)
+2019-02-21 17:07:45,060 DEBUG [http-nio-8085-exec-7] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 17:07:45,201 DEBUG [http-nio-8085-exec-7] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO log ( ID,UserID,OptTime,IsDeleted,Timestamp,Region,Account,OptType,Content ) VALUES( ?,?,?,?,?,?,?,?,? ) 
+2019-02-21 17:07:45,204 DEBUG [http-nio-8085-exec-7] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] ==> Parameters: 70afbabb-f827-4ce7-8323-983f262e735c(String), admin(String), 2019-02-21 17:07:45(String), false(Boolean), 2019-02-21 17:07:45.198(Timestamp), 登陆系统(String), com.anshare.project.controller.LoginController.login(String), 0(String), admin,AnshareAdmin,SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@6f900ce1]],com.alibaba.druid.support.http.WebStatFilter$StatHttpServletResponseWrapper@456d6144(String)
+2019-02-21 17:07:45,234 DEBUG [http-nio-8085-exec-7] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-21 17:07:45,238 DEBUG [http-nio-8085-exec-7] c.a.p.d.L.insertSelective!selectKey [BaseJdbcLogger.java : 159] ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-02-21 17:07:45,239 DEBUG [http-nio-8085-exec-7] c.a.p.d.L.insertSelective!selectKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 17:13:16,159 DEBUG [http-nio-8085-exec-8] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp FROM users WHERE ( UserName = ? and Password = ? ) 
+2019-02-21 17:13:16,161 DEBUG [http-nio-8085-exec-8] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==> Parameters: admin(String), AnshareAdmin(String)
+2019-02-21 17:13:16,166 DEBUG [http-nio-8085-exec-8] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 17:13:16,168 DEBUG [http-nio-8085-exec-8] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,RoleAuthName,HomePage,Rank,IsDeleted,Timestamp,RoleName FROM role WHERE ID = ? 
+2019-02-21 17:13:16,169 DEBUG [http-nio-8085-exec-8] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==> Parameters: 00000000-1000-0000-0000-000000000000(String)
+2019-02-21 17:13:16,171 DEBUG [http-nio-8085-exec-8] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 17:13:16,177 DEBUG [http-nio-8085-exec-8] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO log ( ID,UserID,OptTime,IsDeleted,Timestamp,Region,Account,OptType,Content ) VALUES( ?,?,?,?,?,?,?,?,? ) 
+2019-02-21 17:13:16,180 DEBUG [http-nio-8085-exec-8] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] ==> Parameters: a77c1740-7215-4403-b363-ad69fb98392e(String), admin(String), 2019-02-21 17:13:16(String), false(Boolean), 2019-02-21 17:13:16.177(Timestamp), 登陆系统(String), com.anshare.project.controller.LoginController.login(String), 0(String), admin,AnshareAdmin,SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@6f900ce1]],com.alibaba.druid.support.http.WebStatFilter$StatHttpServletResponseWrapper@7082b71c(String)
+2019-02-21 17:13:16,247 DEBUG [http-nio-8085-exec-8] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-21 17:13:16,249 DEBUG [http-nio-8085-exec-8] c.a.p.d.L.insertSelective!selectKey [BaseJdbcLogger.java : 159] ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-02-21 17:13:16,250 DEBUG [http-nio-8085-exec-8] c.a.p.d.L.insertSelective!selectKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 17:13:47,821 DEBUG [http-nio-8085-exec-5] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp FROM users WHERE ( UserName = ? and Password = ? ) 
+2019-02-21 17:13:47,823 DEBUG [http-nio-8085-exec-5] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==> Parameters: admin(String), AnshareAdmin(String)
+2019-02-21 17:13:47,824 DEBUG [http-nio-8085-exec-5] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 17:13:47,826 DEBUG [http-nio-8085-exec-5] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,RoleAuthName,HomePage,Rank,IsDeleted,Timestamp,RoleName FROM role WHERE ID = ? 
+2019-02-21 17:13:47,827 DEBUG [http-nio-8085-exec-5] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==> Parameters: 00000000-1000-0000-0000-000000000000(String)
+2019-02-21 17:13:47,828 DEBUG [http-nio-8085-exec-5] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 17:13:47,833 DEBUG [http-nio-8085-exec-5] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO log ( ID,UserID,OptTime,IsDeleted,Timestamp,Region,Account,OptType,Content ) VALUES( ?,?,?,?,?,?,?,?,? ) 
+2019-02-21 17:13:47,835 DEBUG [http-nio-8085-exec-5] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] ==> Parameters: fdf71f75-0dae-4334-be29-28abe6eab859(String), admin(String), 2019-02-21 17:13:47(String), false(Boolean), 2019-02-21 17:13:47.833(Timestamp), 登陆系统(String), com.anshare.project.controller.LoginController.login(String), 0(String), admin,AnshareAdmin,SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@7243d487]],com.alibaba.druid.support.http.WebStatFilter$StatHttpServletResponseWrapper@71ed1418(String)
+2019-02-21 17:13:47,891 DEBUG [http-nio-8085-exec-5] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-21 17:13:47,892 DEBUG [http-nio-8085-exec-5] c.a.p.d.L.insertSelective!selectKey [BaseJdbcLogger.java : 159] ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-02-21 17:13:47,894 DEBUG [http-nio-8085-exec-5] c.a.p.d.L.insertSelective!selectKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 17:16:31,324 DEBUG [http-nio-8085-exec-4] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT count(0) FROM users a LEFT JOIN role b ON a.roleid = b.id WHERE a.rolename = '管理员' AND a.isdeleted = 0 
+2019-02-21 17:16:31,325 DEBUG [http-nio-8085-exec-4] c.a.p.dao.UsersMapper.listPlus_COUNT [BaseJdbcLogger.java : 159] ==> Parameters: 
+2019-02-21 17:21:36,392 DEBUG [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-02-21 17:22:31,008 DEBUG [http-nio-8085-exec-10] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp FROM users WHERE ( UserName = ? and Password = ? ) 
+2019-02-21 17:22:31,027 DEBUG [http-nio-8085-exec-10] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==> Parameters: admin(String), AnshareAdmin(String)
+2019-02-21 17:22:31,045 DEBUG [http-nio-8085-exec-10] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 17:22:31,051 DEBUG [http-nio-8085-exec-10] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,RoleAuthName,HomePage,Rank,IsDeleted,Timestamp,RoleName FROM role WHERE ID = ? 
+2019-02-21 17:22:31,051 DEBUG [http-nio-8085-exec-10] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==> Parameters: 00000000-1000-0000-0000-000000000000(String)
+2019-02-21 17:22:31,056 DEBUG [http-nio-8085-exec-10] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 17:22:32,644 DEBUG [http-nio-8085-exec-10] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO log ( ID,UserID,OptTime,IsDeleted,Timestamp,Region,Account,OptType,Content ) VALUES( ?,?,?,?,?,?,?,?,? ) 
+2019-02-21 17:22:32,647 DEBUG [http-nio-8085-exec-10] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] ==> Parameters: c31b63fc-5f42-4023-8011-0352c973a45f(String), admin(String), 2019-02-21 17:22:32(String), false(Boolean), 2019-02-21 17:22:32.641(Timestamp), 登陆系统(String), com.anshare.project.controller.LoginController.login(String), 0(String), admin,AnshareAdmin,SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@46abc8de]],com.alibaba.druid.support.http.WebStatFilter$StatHttpServletResponseWrapper@6fc424c5(String)
+2019-02-21 17:22:32,702 DEBUG [http-nio-8085-exec-10] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-21 17:22:32,706 DEBUG [http-nio-8085-exec-10] c.a.p.d.L.insertSelective!selectKey [BaseJdbcLogger.java : 159] ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-02-21 17:22:32,707 DEBUG [http-nio-8085-exec-10] c.a.p.d.L.insertSelective!selectKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 17:26:01,663 DEBUG [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-02-21 17:26:46,010 DEBUG [http-nio-8085-exec-8] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp FROM users WHERE ( UserName = ? and Password = ? ) 
+2019-02-21 17:26:46,029 DEBUG [http-nio-8085-exec-8] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==> Parameters: admin(String), AnshareAdmin(String)
+2019-02-21 17:26:46,307 DEBUG [http-nio-8085-exec-8] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 17:26:46,314 DEBUG [http-nio-8085-exec-8] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,RoleAuthName,HomePage,Rank,IsDeleted,Timestamp,RoleName FROM role WHERE ID = ? 
+2019-02-21 17:26:46,315 DEBUG [http-nio-8085-exec-8] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==> Parameters: 00000000-1000-0000-0000-000000000000(String)
+2019-02-21 17:26:46,320 DEBUG [http-nio-8085-exec-8] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 17:26:47,875 DEBUG [http-nio-8085-exec-8] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO log ( ID,UserID,OptTime,IsDeleted,Timestamp,Region,Account,OptType,Content ) VALUES( ?,?,?,?,?,?,?,?,? ) 
+2019-02-21 17:26:47,878 DEBUG [http-nio-8085-exec-8] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] ==> Parameters: f81734d7-9612-4ff0-a292-380c1600d7e7(String), admin(String), 2019-02-21 17:26:47(String), false(Boolean), 2019-02-21 17:26:47.872(Timestamp), 登陆系统(String), com.anshare.project.controller.LoginController.login(String), 0(String), admin,AnshareAdmin,SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@2a70e02f]],com.alibaba.druid.support.http.WebStatFilter$StatHttpServletResponseWrapper@1bfd8e9d(String)
+2019-02-21 17:26:47,938 DEBUG [http-nio-8085-exec-8] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-21 17:26:47,942 DEBUG [http-nio-8085-exec-8] c.a.p.d.L.insertSelective!selectKey [BaseJdbcLogger.java : 159] ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-02-21 17:26:47,943 DEBUG [http-nio-8085-exec-8] c.a.p.d.L.insertSelective!selectKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 17:34:53,199 DEBUG [restartedMain] com.anshare.project.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-02-21 17:35:47,365 DEBUG [http-nio-8085-exec-3] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,DeptID,RoleID,UserName,Password,RealName,Rank,IsDeleted,Timestamp FROM users WHERE ( UserName = ? and Password = ? ) 
+2019-02-21 17:35:47,385 DEBUG [http-nio-8085-exec-3] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] ==> Parameters: admin(String), AnshareAdmin(String)
+2019-02-21 17:35:47,404 DEBUG [http-nio-8085-exec-3] c.a.p.d.U.selectByCondition [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 17:35:47,409 DEBUG [http-nio-8085-exec-3] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT ID,RoleAuthName,HomePage,Rank,IsDeleted,Timestamp,RoleName FROM role WHERE ID = ? 
+2019-02-21 17:35:47,410 DEBUG [http-nio-8085-exec-3] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] ==> Parameters: 00000000-1000-0000-0000-000000000000(String)
+2019-02-21 17:35:47,416 DEBUG [http-nio-8085-exec-3] c.a.p.d.R.selectByPrimaryKey [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-02-21 17:35:48,961 DEBUG [http-nio-8085-exec-3] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO log ( ID,UserID,OptTime,IsDeleted,Timestamp,Region,Account,OptType,Content ) VALUES( ?,?,?,?,?,?,?,?,? ) 
+2019-02-21 17:35:48,964 DEBUG [http-nio-8085-exec-3] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] ==> Parameters: 231af41d-55c1-472f-9e4c-c775e3d2f728(String), admin(String), 2019-02-21 17:35:48(String), false(Boolean), 2019-02-21 17:35:48.958(Timestamp), 登陆系统(String), com.anshare.project.controller.LoginController.login(String), 0(String), admin,AnshareAdmin,SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@2866d258]],com.alibaba.druid.support.http.WebStatFilter$StatHttpServletResponseWrapper@6aece44b(String)
+2019-02-21 17:35:48,998 DEBUG [http-nio-8085-exec-3] c.a.p.dao.LogMapper.insertSelective [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-02-21 17:35:49,002 DEBUG [http-nio-8085-exec-3] c.a.p.d.L.insertSelective!selectKey [BaseJdbcLogger.java : 159] ==>  Executing: SELECT LAST_INSERT_ID() 
+2019-02-21 17:35:49,002 DEBUG [http-nio-8085-exec-3] c.a.p.d.L.insertSelective!selectKey [BaseJdbcLogger.java : 159] <==      Total: 1

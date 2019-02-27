@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.anshare.project.dao.RoleMapper">
+  <resultMap id="BaseResultMap" type="com.anshare.project.model.Role">
+    <id column="ID" jdbcType="CHAR" property="id" />
+    <result column="RoleAuthName" jdbcType="VARCHAR" property="roleauthname" />
+    <result column="HomePage" jdbcType="VARCHAR" property="homepage" />
+    <result column="Rank" jdbcType="INTEGER" property="rank" />
+    <result column="IsDeleted" jdbcType="BIT" property="isdeleted" />
+    <result column="Timestamp" jdbcType="TIMESTAMP" property="timestamp" />
+    <result column="RoleName" jdbcType="LONGVARCHAR" property="rolename" />
+  </resultMap>
+
+  <select id="findId" resultType="java.lang.String">
+    SELECT
+      id
+    FROM
+      role
+    WHERE
+      RoleName = '巡察员'
+  </select>
+</mapper>

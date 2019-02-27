@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.anshare.project.dao.FormMapper">
+  <resultMap id="BaseResultMap" type="com.anshare.project.model.Form">
+    <result column="ID" jdbcType="CHAR" property="id" />
+    <result column="TableName" jdbcType="VARCHAR" property="tableName" />
+    <result column="Optime" jdbcType="VARCHAR" property="optime" />
+    <result column="IsDeleted" jdbcType="BIT" property="isdeleted" />
+    <result column="Timestamp" jdbcType="TIMESTAMP" property="timestamp" />
+    <result column="FormJson" jdbcType="LONGVARCHAR" property="formJson" />
+    <result column="Position" jdbcType="LONGVARCHAR" property="position" />
+    <result column="Remark" jdbcType="LONGVARCHAR" property="remark" />
+  </resultMap>
+
+  <!-- 根据库名查询所有表名称，返回前端用于生成动态表单 -->
+  <select id="getTables" resultType="java.util.Map">
+      SELECT
+        table_name
+      FROM
+        information_schema.tables
+      WHERE table_schema = 'szmonitor'
+  </select>
+
+</mapper>

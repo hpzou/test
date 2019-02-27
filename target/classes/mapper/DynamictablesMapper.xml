@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.anshare.project.dao.DynamictablesMapper">
+  <resultMap id="BaseResultMap" type="com.anshare.project.model.Dynamictables">
+    <id column="ID" jdbcType="CHAR" property="id" />
+    <result column="TableName" jdbcType="VARCHAR" property="tableName" />
+    <result column="Optime" jdbcType="VARCHAR" property="optime" />
+    <result column="IsDeleted" jdbcType="BIT" property="isdeleted" />
+    <result column="Timestamp" jdbcType="TIMESTAMP" property="timestamp" />
+    <result column="FormJson" jdbcType="LONGVARCHAR" property="formJson" />
+    <result column="Position" jdbcType="LONGVARCHAR" property="position" />
+    <result column="Remark" jdbcType="LONGVARCHAR" property="remark" />
+  </resultMap>
+</mapper>
